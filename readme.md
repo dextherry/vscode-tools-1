@@ -34,6 +34,7 @@ You can add a custom keybinding to trigger the command automatically:
 ## Settings
 Add in VSCode settings:
 
+```json
 "multiCommand.commands": [
   {
     "command": "multiCommand.copyFileAndLineInfo",
@@ -50,3 +51,4 @@ Add in VSCode settings:
     ]
   }
 ]
+```
