@@ -1,0 +1,30 @@
+{
+    "name": "copy-line-info",
+    "displayName": "Copy Line Info",
+    "description": "Copy file name and number or range of lines to the clipboard",
+    "version": "0.0.1",
+    "publisher": "giancarlo",
+    "engines": {
+      "vscode": "^1.70.0"
+    },
+    "activationEvents": [
+      "onCommand:extension.copyLineInfo"
+    ],
+    "main": "./extension.js",
+    "contributes": {
+      "commands": [
+        {
+          "command": "extension.copyLineInfo",
+          "title": "Copy file and lines to clipboard"
+        }
+      ]
+    },
+    "scripts": {},
+    "devDependencies": {},
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/dextherry/vscode-tools-1.git"
+    }
+
+  }
+  
