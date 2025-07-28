@@ -27,7 +27,7 @@ You can add a custom keybinding to trigger the command automatically:
   "key": "ctrl+alt+c",
   "command": "extension.copyLineInfo",
   "when": "editorTextFocus"
-}
+}```
 
 
 ## Settings
